@@ -46,7 +46,8 @@ defmodule HaraldQuickstart.MixProject do
 
       # Dependencies for all targets except :host
       {:nerves_runtime, "~> 0.6", targets: @all_targets},
-      {:nerves_init_gadget, "~> 0.4", targets: @all_targets},
+      {:nerves_init_gadget, "~> 0.4",
+       github: "nerves-project/nerves_init_gadget", branch: "user_password", targets: @all_targets},
       {:harald, "~> 0.1", targets: @all_targets},
 
       # Dependencies for specific targets
