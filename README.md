@@ -64,7 +64,7 @@ look at `ssh`.
 
 ### `ssh`
 
-The `quickstart_harald` project configures the user as `harald` with the
+The `harald_quickstart` project configures the user as `harald` with the
 host `nerves.local` and has the password set as `harald`. With that in mind,
 we can use the `ssh` command to get to the `iex` prompt.
 
