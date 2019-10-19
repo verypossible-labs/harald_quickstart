@@ -9,6 +9,7 @@ defmodule HaraldQuickstart.Application do
     # See https://hexdocs.pm/elixir/Supervisor.html
     # for other strategies and supported options
     opts = [strategy: :one_for_one, name: HaraldQuickstart.Supervisor]
+
     children =
       [
         # Children for all targets
@@ -30,6 +31,7 @@ defmodule HaraldQuickstart.Application do
 
   def children(_target) do
     harald_transport_opts = Application.get_env(:harald, :transport_opts)
+
     [
       # Children for all targets except host
       # Starts a worker by calling: HaraldQuickstart.Worker.start_link(arg)

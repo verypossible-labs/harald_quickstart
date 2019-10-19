@@ -50,6 +50,7 @@ config :harald, :transport_opts,
 
 # import_config "#{Mix.target()}.exs"
 target_config = Path.join(["config/target/#{Mix.target()}.exs"]) |> Path.expand()
+
 if File.exists?(target_config) do
   import_config(target_config)
 end
