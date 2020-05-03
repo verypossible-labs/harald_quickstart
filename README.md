@@ -1,5 +1,9 @@
 # Harald Quickstart Firmware
 
+This project is part of [Very labs](https://github.com/verypossible-labs/docs/blob/master/README.md).
+
+---
+
 The harald quickstart firmware lets you try out harald on real hardware without
 the need to create a new Nerves project or compile any code.
 
